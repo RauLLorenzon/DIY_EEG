@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "tps732")(type "KiCad")(uri "${KIPRJMOD}/Libraries/tps732.pretty")(options "")(descr ""))
+  (lib (name "ads1299 8channel")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ADS1299_6PAG/KiCADv6/footprints.pretty/Ads1299.pretty")(options "")(descr ""))
+)
