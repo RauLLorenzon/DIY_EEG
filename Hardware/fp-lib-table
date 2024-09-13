@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "tps732")(type "KiCad")(uri "${KIPRJMOD}/Libraries/tps732.pretty")(options "")(descr ""))
   (lib (name "ads1299 8channel")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ADS1299_6PAG/KiCADv6/footprints.pretty/Ads1299.pretty")(options "")(descr ""))
+  (lib (name "tpd4e1b06")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ul_TPD4E1B06DRLR/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
