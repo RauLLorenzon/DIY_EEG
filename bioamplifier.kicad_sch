@@ -4937,16 +4937,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 104.14) (xy 107.95 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43dfbadc-0bbc-4777-a6d0-665aaa7d05f0")
-	)
-	(wire
-		(pts
 			(xy 209.296 35.814) (xy 214.376 35.814)
 		)
 		(stroke
@@ -5567,7 +5557,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.884 104.14) (xy 88.9 104.14)
+			(xy 87.884 104.14) (xy 107.95 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7265,7 +7255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 74.93 123.19 0)
 			(effects
 				(font
@@ -8334,7 +8324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 240.03 104.14 0)
 			(effects
 				(font
@@ -8371,74 +8361,6 @@
 			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 93.98 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "472c02f7-5a0c-4329-929f-c5e4f1786837")
-		(property "Reference" "JP1"
-			(at 93.98 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 93.98 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
-			(at 93.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a962584d-4ca9-4cf8-8c73-5fdc06a2bff5")
-		)
-		(pin "2"
-			(uuid "0afac264-4bdb-4118-a4e6-56194f6dbebc")
-		)
-		(instances
-			(project "bioamplifier"
-				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -8538,7 +8460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 222.25 86.36 0)
 			(effects
 				(font
@@ -8946,7 +8868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 80.01 109.22 0)
 			(effects
 				(font
@@ -9283,7 +9205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 234.95 86.36 0)
 			(effects
 				(font
@@ -10090,7 +10012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 95.25 121.92 0)
 			(effects
 				(font
@@ -11038,7 +10960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 212.09 119.38 0)
 			(effects
 				(font
@@ -11506,7 +11428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 227.33 104.14 0)
 			(effects
 				(font
@@ -11642,7 +11564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 90.17 161.29 0)
 			(effects
 				(font

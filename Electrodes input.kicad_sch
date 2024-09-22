@@ -5150,7 +5150,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 uF"
+		(property "Value" "1 nF"
 			(at 67.056 123.6917 0)
 			(effects
 				(font
@@ -5418,7 +5418,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 uF"
+		(property "Value" "1 nF"
 			(at 158.75 109.2137 0)
 			(effects
 				(font
@@ -5554,7 +5554,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 uF"
+		(property "Value" "1 nF"
 			(at 261.62 67.3037 0)
 			(effects
 				(font
@@ -6092,7 +6092,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 uF"
+		(property "Value" "1 nF"
 			(at 162.56 170.1737 0)
 			(effects
 				(font
@@ -6162,7 +6162,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 uF"
+		(property "Value" "1 nF"
 			(at 267.97 109.2137 0)
 			(effects
 				(font
@@ -6372,7 +6372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 255.27 50.165 90)
 			(effects
 				(font
@@ -6665,7 +6665,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 uF"
+		(property "Value" "1 nF"
 			(at 170.18 170.1737 0)
 			(effects
 				(font
@@ -6735,7 +6735,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 uF"
+		(property "Value" "1 nF"
 			(at 269.24 67.3037 0)
 			(effects
 				(font
@@ -7095,7 +7095,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 uF"
+		(property "Value" "1 nF"
 			(at 166.37 109.2137 0)
 			(effects
 				(font
@@ -7231,7 +7231,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 uF"
+		(property "Value" "1 nF"
 			(at 162.56 109.2137 0)
 			(effects
 				(font
@@ -7683,7 +7683,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 uF"
+		(property "Value" "1 nF"
 			(at 166.37 170.1737 0)
 			(effects
 				(font
@@ -7753,7 +7753,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 uF"
+		(property "Value" "1 nF"
 			(at 170.18 109.2137 0)
 			(effects
 				(font
@@ -8157,7 +8157,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 uF"
+		(property "Value" "1 nF"
 			(at 271.78 109.2137 0)
 			(effects
 				(font
@@ -8376,7 +8376,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 uF"
+		(property "Value" "1 nF"
 			(at 158.75 170.1737 0)
 			(effects
 				(font
@@ -8446,7 +8446,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 uF"
+		(property "Value" "1 nF"
 			(at 264.16 109.2137 0)
 			(effects
 				(font
@@ -8516,7 +8516,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 uF"
+		(property "Value" "1 nF"
 			(at 257.81 67.3037 0)
 			(effects
 				(font
@@ -8820,7 +8820,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 uF"
+		(property "Value" "1 nF"
 			(at 260.35 109.2137 0)
 			(effects
 				(font
@@ -9038,7 +9038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "6.8 uF"
+		(property "Value" "1 nF"
 			(at 86.106 125.984 0)
 			(effects
 				(font
@@ -9306,7 +9306,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 uF"
+		(property "Value" "1 nF"
 			(at 94.488 21.336 0)
 			(effects
 				(font
@@ -9376,7 +9376,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 uF"
+		(property "Value" "1 nF"
 			(at 265.43 67.3037 0)
 			(effects
 				(font
