@@ -4587,7 +4587,7 @@
 	)
 	(wire
 		(pts
-			(xy 206.248 143.256) (xy 206.248 142.24)
+			(xy 206.248 121.92) (xy 206.248 143.256)
 		)
 		(stroke
 			(width 0)
@@ -4627,13 +4627,13 @@
 	)
 	(wire
 		(pts
-			(xy 206.248 137.16) (xy 206.248 136.906)
+			(xy 201.93 116.84) (xy 204.47 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "186e8f72-12a1-4499-96e3-dd686b2794ec")
+		(uuid "16ad77c1-2e72-420c-841e-0ebc439cea47")
 	)
 	(wire
 		(pts
@@ -4934,16 +4934,6 @@
 			(type default)
 		)
 		(uuid "4377f6c8-2000-4cc4-817f-2939ecb20907")
-	)
-	(wire
-		(pts
-			(xy 99.06 104.14) (xy 107.95 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43dfbadc-0bbc-4777-a6d0-665aaa7d05f0")
 	)
 	(wire
 		(pts
@@ -5567,7 +5557,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.884 104.14) (xy 88.9 104.14)
+			(xy 87.884 104.14) (xy 107.95 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6027,16 +6017,6 @@
 	)
 	(wire
 		(pts
-			(xy 206.248 129.286) (xy 206.248 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d11b6ad9-16b6-45db-87d0-bd8bbcd4d79f")
-	)
-	(wire
-		(pts
 			(xy 260.096 107.188) (xy 266.7 107.188)
 		)
 		(stroke
@@ -6237,7 +6217,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 116.84) (xy 190.5 116.84)
+			(xy 179.07 116.84) (xy 189.23 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6489,7 +6469,7 @@
 		(uuid "412c71df-6a30-40fe-8d31-004a9bdb00b6")
 	)
 	(label "GPIO1"
-		(at 190.5 116.84 0)
+		(at 204.47 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7275,7 +7255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 74.93 123.19 0)
 			(effects
 				(font
@@ -7345,7 +7325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 160.02 42.164 0)
 			(effects
 				(font
@@ -7803,7 +7783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.296 168.148 0)
 			(effects
 				(font
@@ -7840,76 +7820,6 @@
 			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 206.248 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e763f87-d1c0-4ea7-9921-fb91cac7bb91")
-		(property "Reference" "R21"
-			(at 208.28 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 208.28 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 206.248 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 206.248 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 206.248 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "054b171d-7a4f-4699-a145-9bc682df392e")
-		)
-		(pin "1"
-			(uuid "5116f029-6747-4d38-bf48-adf40ba8a67e")
-		)
-		(instances
-			(project "bioamplifier"
-				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8209,7 +8119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 194.31 88.9 0)
 			(effects
 				(font
@@ -8279,7 +8189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 254 38.1 0)
 			(effects
 				(font
@@ -8387,76 +8297,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 206.248 133.096 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b0749cc-45a9-49c5-89d7-82239079b78f")
-		(property "Reference" "D1"
-			(at 209.55 133.4135 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BLUE LED"
-			(at 209.55 135.9535 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 206.248 133.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 206.248 133.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 206.248 133.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7180523-2f1d-4788-8b03-b0eb574407bf")
-		)
-		(pin "2"
-			(uuid "6bdfe0ac-8871-41cb-8736-21165e7ea400")
-		)
-		(instances
-			(project "bioamplifier"
-				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 240.03 104.14 0)
 		(unit 1)
@@ -8484,7 +8324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 240.03 104.14 0)
 			(effects
 				(font
@@ -8521,74 +8361,6 @@
 			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 93.98 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "472c02f7-5a0c-4329-929f-c5e4f1786837")
-		(property "Reference" "JP1"
-			(at 93.98 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 93.98 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
-			(at 93.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a962584d-4ca9-4cf8-8c73-5fdc06a2bff5")
-		)
-		(pin "2"
-			(uuid "0afac264-4bdb-4118-a4e6-56194f6dbebc")
-		)
-		(instances
-			(project "bioamplifier"
-				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -8688,7 +8460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 222.25 86.36 0)
 			(effects
 				(font
@@ -8824,7 +8596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 214.376 38.354 0)
 			(effects
 				(font
@@ -8867,17 +8639,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 201.93 57.15 0)
+		(lib_id "Device:R_Small_US")
+		(at 199.39 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5976e7e4-26ee-457d-a186-5bb4b9fb8a91")
-		(property "Reference" "#PWR057"
-			(at 201.93 63.5 0)
+		(uuid "5d75bc10-565c-4871-b6a9-501cf58aa51a")
+		(property "Reference" "R1"
+			(at 198.12 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 200.66 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 199.39 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8885,25 +8675,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 201.93 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 57.15 0)
+		(property "Datasheet" "~"
+			(at 199.39 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8912,7 +8685,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 57.15 0)
+			(at 199.39 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8920,13 +8693,16 @@
 				(hide yes)
 			)
 		)
+		(pin "2"
+			(uuid "d3a182f4-5d21-47fe-981a-aff5af117c92")
+		)
 		(pin "1"
-			(uuid "4c964a37-3b5d-4766-86f5-a9e7c3a4b100")
+			(uuid "cc8c8747-7602-4f23-b266-267a737dee16")
 		)
 		(instances
 			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
-					(reference "#PWR057")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9092,7 +8868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 80.01 109.22 0)
 			(effects
 				(font
@@ -9162,7 +8938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 221.996 119.38 0)
 			(effects
 				(font
@@ -9429,7 +9205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 234.95 86.36 0)
 			(effects
 				(font
@@ -9569,7 +9345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 231.14 76.2 0)
 			(effects
 				(font
@@ -9904,7 +9680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 205.486 80.01 0)
 			(effects
 				(font
@@ -10236,7 +10012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 95.25 121.92 0)
 			(effects
 				(font
@@ -10412,6 +10188,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 193.04 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b13cc09e-f5ce-4161-99c9-ebd1faba6bf8")
+		(property "Reference" "D1"
+			(at 193.3575 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BLUE LED"
+			(at 195.8975 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "487dab74-3efc-45e5-b7f9-0ca1bc5d92e3")
+		)
+		(pin "2"
+			(uuid "8a15088f-6729-494c-bb11-177ec2a197a3")
+		)
+		(instances
+			(project "bioamplifier"
+				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 181.61 91.44 90)
 		(unit 1)
@@ -10505,7 +10351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 86.36 121.92 0)
 			(effects
 				(font
@@ -10707,7 +10553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 240.03 38.1 0)
 			(effects
 				(font
@@ -10842,7 +10688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.52 154.94 0)
 			(effects
 				(font
@@ -10978,7 +10824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 81.4841 44.0113 0)
 			(effects
 				(font
@@ -11114,7 +10960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 212.09 119.38 0)
 			(effects
 				(font
@@ -11489,73 +11335,6 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 179.07 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec47dcc2-8d89-40bb-a8b9-84ddca4893d9")
-		(property "Reference" "#PWR04"
-			(at 185.42 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 182.88 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "67361ed5-e958-4120-80a4-b608b64bf835")
-		)
-		(instances
-			(project "bioamplifier"
-				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
 		(at 212.09 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11649,7 +11428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 227.33 104.14 0)
 			(effects
 				(font
@@ -11785,7 +11564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 90.17 161.29 0)
 			(effects
 				(font

@@ -3,4 +3,6 @@
   (lib (name "tps732")(type "KiCad")(uri "${KIPRJMOD}/Libraries/tps732.pretty")(options "")(descr ""))
   (lib (name "ads1299 8channel")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ADS1299_6PAG/KiCADv6/footprints.pretty/Ads1299.pretty")(options "")(descr ""))
   (lib (name "tpd4e1b06")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ul_TPD4E1B06DRLR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "TPD4E1B06_R")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ul_TPD4E1B06DCKR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "w3a4yc104mat2a")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LIB_W3A4YC104MAT2A/W3A4YC104MAT2A/KiCad/w3a4yc104mat2a.pretty")(options "")(descr ""))
 )
