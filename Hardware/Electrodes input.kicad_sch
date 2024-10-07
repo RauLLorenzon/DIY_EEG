@@ -6812,7 +6812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 153.67 153.035 90)
 			(effects
 				(font
@@ -7308,7 +7308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TPD4E1B06_R:DCK6_TEX"
 			(at 93.98 130.81 0)
 			(effects
 				(font
@@ -7456,7 +7456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 256.54 92.075 90)
 			(effects
 				(font
@@ -8301,7 +8301,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TPD4E1B06_R:DCK6_TEX"
 			(at 99.06 96.52 0)
 			(effects
 				(font
@@ -8593,7 +8593,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TPD4E1B06_R:DCK6_TEX"
 			(at 82.55 158.75 0)
 			(effects
 				(font
@@ -8741,7 +8741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 156.21 92.075 90)
 			(effects
 				(font
@@ -8897,7 +8897,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TPD4E1B06_R:DCK6_TEX"
 			(at 199.39 96.52 0)
 			(effects
 				(font
