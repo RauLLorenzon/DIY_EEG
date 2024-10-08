@@ -4,4 +4,5 @@
   (lib (name "tps732")(type "KiCad")(uri "${KIPRJMOD}/Libraries/tps732/KiCADv6/2024-03-18_14-23-38.kicad_sym")(options "")(descr ""))
   (lib (name "tpd4e1_esayGND")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ul_TPD4E1B06DCKR/KiCADv6/2024-09-19_11-15-28.kicad_sym")(options "")(descr ""))
   (lib (name "array_cap_4")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LIB_W3A4YC104MAT2A/W3A4YC104MAT2A/KiCad/W3A4YC104MAT2A.kicad_sym")(options "")(descr ""))
+  (lib (name "lm2776 voltage inverter")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ul_LM27761DSGR/KiCADv6/2024-10-08_10-35-42.kicad_sym")(options "")(descr ""))
 )
