@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP1754ST-3302E_DB
+D LDO Voltage Regulators LDO
+K
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en555395
+$ENDCMP
+#
+#End Doc Library

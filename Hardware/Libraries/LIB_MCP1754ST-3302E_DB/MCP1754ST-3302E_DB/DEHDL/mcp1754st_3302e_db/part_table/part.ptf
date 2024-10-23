@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MCP1754ST_3302E_DB'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "MCP1754ST-3302E/DB" (!) = "", "SOT230P700X180-4N", "SOT223 (3-Pin)", "579-MCP1754T-3302EDB", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1754ST-3302E-DB?qs=geWWqIMx8Ypn%2FSBmGzIfBw%3D%3D", "LDO Voltage Regulators LDO", "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en555395", "1.8 mm"
+END_PART
+
+END.

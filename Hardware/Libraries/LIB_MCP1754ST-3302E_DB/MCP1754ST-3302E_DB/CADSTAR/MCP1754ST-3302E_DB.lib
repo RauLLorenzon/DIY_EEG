@@ -1,0 +1,16 @@
+.MCP1754ST-3302E_DB :1 ;LDO Voltage Regulators LDO
+SOT230P700X180-4N
+*STM IC
+*NGS
+*PLB 1="VIN" 2="GND_1" 3="VOUT" 4="GND_2"
+*MXP 4
+*DFN MCP1754ST-3302E_DB
+~!Mouser Part Number (579-MCP1754T-3302EDB)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1754ST-3302E-DB?qs=geWWqIMx8Ypn%2FSBmGzIfBw%3D%3D)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MCP1754ST-3302E/DB)
+~!Link Datasheet (http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en555395)
+~!Height (1.8mm)
+~!3D_Model (MCP1754ST-3302E_DB)
+MCP1754ST-3302E_DB
+1.1!U 2.1!U 3.1!U 4.1!U 

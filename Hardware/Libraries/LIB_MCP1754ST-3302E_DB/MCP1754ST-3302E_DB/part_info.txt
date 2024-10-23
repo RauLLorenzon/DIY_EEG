@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=MCP1754ST-3302E/DB
+PartCategory=Integrated Circuit
+PackageCategory=SOT223 (3-Pin)
+PinCount=4
+Version=2.1
+Released=2020-07-10 09:33:02
+Downloaded=2024-10-22 09:40:10
+3D=Y

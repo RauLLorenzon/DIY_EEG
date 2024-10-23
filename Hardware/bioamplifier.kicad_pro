@@ -763,6 +763,10 @@
     [
       "6ca1c004-738e-4334-8b2a-379b61b3d5a8",
       "Electrodes input"
+    ],
+    [
+      "db58efb1-7103-4a17-b794-0e1a9c461960",
+      "Volt_regulators_inverters"
     ]
   ],
   "text_variables": {}
