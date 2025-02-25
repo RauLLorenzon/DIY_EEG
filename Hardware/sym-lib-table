@@ -8,4 +8,5 @@
   (lib (name "Mcp1754")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LIB_MCP1754ST-3302E_DB/MCP1754ST-3302E_DB/KiCad/MCP1754ST-3302E_DB.kicad_sym")(options "")(descr ""))
   (lib (name "tlv77333")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ul_TLV77333PDQNR/KiCADv6/2024-10-08_10-51-03.kicad_sym")(options "")(descr ""))
   (lib (name "tps723")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ul_TPS72301DBVR/KiCADv6/2024-10-08_10-48-01.kicad_sym")(options "")(descr ""))
+  (lib (name "tlv703")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ul_TLV70310DBVR/KiCADv6/2024-10-22_08-34-29.kicad_sym")(options "")(descr ""))
 )
