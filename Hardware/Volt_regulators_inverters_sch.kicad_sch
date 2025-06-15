@@ -3210,7 +3210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DBV0005A-IPC_A"
+		(property "Footprint" "tlv702:DBV0005A-IPC_A"
 			(at 39.37 163.83 0)
 			(effects
 				(font
