@@ -5728,7 +5728,7 @@
 				)
 			)
 		)
-		(property "Value" "4.99 K"
+		(property "Value" "4.99 KΩ"
 			(at 111.76 16.256 90)
 			(effects
 				(font
@@ -6271,7 +6271,7 @@
 				)
 			)
 		)
-		(property "Value" "4.99 K"
+		(property "Value" "4.99 KΩ"
 			(at 243.84 22.86 90)
 			(effects
 				(font
@@ -6711,7 +6711,7 @@
 				)
 			)
 		)
-		(property "Value" "4.99 K"
+		(property "Value" "4.99 KΩ"
 			(at 243.84 130.81 90)
 			(effects
 				(font
@@ -7355,7 +7355,7 @@
 				)
 			)
 		)
-		(property "Value" "4.99 K"
+		(property "Value" "4.99 KΩ"
 			(at 245.11 64.77 90)
 			(effects
 				(font
@@ -7794,7 +7794,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.99 K"
+		(property "Value" "4.99 KΩ"
 			(at 74.93 56.134 0)
 			(effects
 				(font
@@ -7995,7 +7995,7 @@
 				)
 			)
 		)
-		(property "Value" "4.99 K"
+		(property "Value" "4.99 KΩ"
 			(at 58.166 136.144 90)
 			(effects
 				(font
@@ -8132,7 +8132,7 @@
 				)
 			)
 		)
-		(property "Value" "4.99 K"
+		(property "Value" "4.99 KΩ"
 			(at 88.9 115.316 90)
 			(effects
 				(font
@@ -8640,7 +8640,7 @@
 				)
 			)
 		)
-		(property "Value" "4.99 K"
+		(property "Value" "4.99 KΩ"
 			(at 245.11 99.06 90)
 			(effects
 				(font
@@ -9352,7 +9352,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "1 MΩ"
 			(at 71.12 46.736 90)
 			(effects
 				(font

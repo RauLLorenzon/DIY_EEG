@@ -1287,6 +1287,169 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x07_Socket"
 			(pin_names
 				(offset 1.016)
@@ -2338,153 +2501,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Bridged"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Bridged"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_1"
-				(arc
-					(start -1.524 0.254)
-					(mid 0 0.762)
-					(end 1.524 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -2981,27 +2997,6 @@
 		)
 		(uuid e6845547-e354-4936-9459-f92cc7def96e)
 	)
-	(text "Cutoff of 70hz --> low pass with 220 resistor and 10 nanofarad C\n"
-		(exclude_from_sim no)
-		(at 26.67 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2f02e73c-9a11-492c-8160-7f2265988d25")
-	)
-	(text "8 channels at 24 bit resolution ---> minimun clock rate 110khz\n"
-		(exclude_from_sim no)
-		(at 216.916 146.558 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6d12d513-992a-4fa1-8f08-787acfe457cd")
-	)
 	(junction
 		(at 92.71 139.7)
 		(diameter 0)
@@ -3021,16 +3016,16 @@
 		(uuid "01376e92-4df0-4540-8319-5851ca28d119")
 	)
 	(junction
-		(at 198.12 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c6c4d38-650b-4b69-bb76-658882c3c23a")
-	)
-	(junction
 		(at 77.47 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12d14b1d-b645-4691-8b4c-b5d0be3107d6")
+	)
+	(junction
+		(at 198.12 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "167a72ae-0771-418d-a875-4b5020f08faf")
 	)
 	(junction
 		(at 222.25 83.82)
@@ -3325,16 +3320,6 @@
 			(type default)
 		)
 		(uuid "16ad77c1-2e72-420c-841e-0ebc439cea47")
-	)
-	(wire
-		(pts
-			(xy 198.12 68.58) (xy 200.66 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aa2a595-454b-4036-b4c9-44366c2c1445")
 	)
 	(wire
 		(pts
@@ -4228,6 +4213,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 68.58) (xy 200.66 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb9632c9-7ba4-4c8b-b06d-046db1bdac77")
+	)
+	(wire
+		(pts
 			(xy 187.96 91.44) (xy 187.96 88.9)
 		)
 		(stroke
@@ -4345,6 +4340,16 @@
 			(type default)
 		)
 		(uuid "e4928f6c-53c7-418f-a9c3-f917ab664c37")
+	)
+	(wire
+		(pts
+			(xy 198.12 60.96) (xy 198.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f8c9f5-1526-44a5-8bdf-dd3f6613c598")
 	)
 	(wire
 		(pts
@@ -5602,7 +5607,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50 Ω"
 			(at 258.064 48.768 90)
 			(effects
 				(font
@@ -5927,7 +5932,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50 Ω"
 			(at 258.064 58.928 90)
 			(effects
 				(font
@@ -5994,7 +5999,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50 Ω"
 			(at 258.064 75.438 90)
 			(effects
 				(font
@@ -6326,7 +6331,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50 Ω"
 			(at 258.064 77.978 90)
 			(effects
 				(font
@@ -6530,7 +6535,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50 Ω"
 			(at 258.064 80.518 90)
 			(effects
 				(font
@@ -6725,7 +6730,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50 Ω"
 			(at 258.064 72.898 90)
 			(effects
 				(font
@@ -6927,7 +6932,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50 Ω"
 			(at 258.064 83.058 90)
 			(effects
 				(font
@@ -6996,7 +7001,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1 KΩ"
 			(at 200.66 114.808 0)
 			(effects
 				(font
@@ -7333,7 +7338,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50 Ω"
 			(at 258.064 51.308 90)
 			(effects
 				(font
@@ -7466,8 +7471,9 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50 Ω"
 			(at 258.064 85.598 90)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7581,76 +7587,6 @@
 			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 198.12 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80459ace-8419-43fb-9ada-19a10ddeaf73")
-		(property "Reference" "JP2"
-			(at 199.39 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 199.39 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
-			(at 198.12 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d149228-7d8d-4415-bb7b-8f38d7e1566d")
-		)
-		(pin "2"
-			(uuid "8bb5bb1f-8da5-4182-b1e8-0fce8a7550c4")
-		)
-		(instances
-			(project "bioamplifier"
-				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -7877,7 +7813,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50 Ω"
 			(at 258.064 61.468 90)
 			(effects
 				(font
@@ -8404,6 +8340,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 193.04 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b78a695d-c867-418d-9cfe-fc1702a1e973")
+		(property "Reference" "J4"
+			(at 193.675 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 193.294 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
+			(at 193.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 193.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "93de867f-fd87-4f41-a50b-fc39901fc22e")
+		)
+		(pin "1"
+			(uuid "3a1eea0f-f5ab-4f5e-a517-861c2144b417")
+		)
+		(instances
+			(project ""
+				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 81.28 121.92 0)
 		(unit 1)
@@ -8558,7 +8561,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50 Ω"
 			(at 258.064 56.388 90)
 			(effects
 				(font
@@ -9309,7 +9312,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50 Ω"
 			(at 258.064 53.848 90)
 			(effects
 				(font
@@ -9731,7 +9734,7 @@
 		)
 	)
 	(sheet
-		(at 191.77 21.59)
+		(at 19.05 33.02)
 		(size 63.5 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9747,7 +9750,7 @@
 		)
 		(uuid "db58efb1-7103-4a17-b794-0e1a9c461960")
 		(property "Sheetname" "Volt_regulators_inverters"
-			(at 191.77 20.8784 0)
+			(at 19.05 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9756,7 +9759,7 @@
 			)
 		)
 		(property "Sheetfile" "Volt_regulators_inverters_sch.kicad_sch"
-			(at 191.77 43.7646 0)
+			(at 19.05 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9765,7 +9768,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 191.77 21.59 0)
+			(at 19.05 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
