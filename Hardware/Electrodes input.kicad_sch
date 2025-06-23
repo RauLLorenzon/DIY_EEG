@@ -5988,7 +5988,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2bf2aba6-375e-405c-8427-af56a180c752")
 		(property "Reference" "C12"
 			(at 252.73 149.8537 0)
@@ -6271,7 +6270,7 @@
 				)
 			)
 		)
-		(property "Value" "4.99 KΩ"
+		(property "Value" "EXB-V8V512JV"
 			(at 243.84 22.86 90)
 			(effects
 				(font
@@ -6561,7 +6560,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4be579e8-2cb1-4fde-8435-9000987fb1fe")
 		(property "Reference" "C36"
 			(at 260.35 149.8537 0)
@@ -6711,7 +6709,7 @@
 				)
 			)
 		)
-		(property "Value" "4.99 KΩ"
+		(property "Value" "EXB-V8V512JV"
 			(at 243.84 130.81 90)
 			(effects
 				(font
@@ -7355,7 +7353,7 @@
 				)
 			)
 		)
-		(property "Value" "4.99 KΩ"
+		(property "Value" "EXB-V8V512JV"
 			(at 245.11 64.77 90)
 			(effects
 				(font
@@ -7579,7 +7577,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7be6d430-a607-4720-9649-655b6186cc31")
 		(property "Reference" "C26"
 			(at 256.54 149.8537 0)
@@ -8640,7 +8637,7 @@
 				)
 			)
 		)
-		(property "Value" "4.99 KΩ"
+		(property "Value" "EXB-V8V512JV"
 			(at 245.11 99.06 90)
 			(effects
 				(font

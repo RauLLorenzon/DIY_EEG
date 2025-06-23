@@ -2997,6 +2997,17 @@
 		)
 		(uuid e6845547-e354-4936-9459-f92cc7def96e)
 	)
+	(text "DAISY-CHAIN: 2nd Device DOUT --> DAISY_IN 1st device\n"
+		(exclude_from_sim no)
+		(at 171.704 41.91 0)
+		(effects
+			(font
+				(face "FiraCode Nerd Font")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "532cadd3-fe34-4aa6-bf5e-ce845e40731b")
+	)
 	(junction
 		(at 92.71 139.7)
 		(diameter 0)
@@ -3370,6 +3381,16 @@
 			(type default)
 		)
 		(uuid "268ae53f-0b2d-4d95-8846-41a23d37fd87")
+	)
+	(wire
+		(pts
+			(xy 237.49 120.65) (xy 243.84 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d422b4-01e4-4a66-992f-f5c2681a45e1")
 	)
 	(wire
 		(pts
@@ -4013,6 +4034,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 118.11) (xy 243.84 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0522091-87cd-4ec5-b3ab-dfcce4f64d1c")
+	)
+	(wire
+		(pts
 			(xy 179.07 106.68) (xy 181.61 106.68)
 		)
 		(stroke
@@ -4491,6 +4522,16 @@
 		)
 		(uuid "072dd294-4952-4ecc-b97e-0ce07fd317f8")
 	)
+	(label "DAISY-IN"
+		(at 237.49 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b308c2c-20a4-421b-a677-77c4832baa88")
+	)
 	(label "CHIP_SEL"
 		(at 190.5 124.46 0)
 		(effects
@@ -4680,6 +4721,16 @@
 			(justify right bottom)
 		)
 		(uuid "e27d6904-97ff-4660-a466-959c06d71376")
+	)
+	(label "DAISY-IN"
+		(at 181.61 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f50fb278-6e74-40f7-8fd6-96573009abfb")
 	)
 	(label "DRDY"
 		(at 270.51 49.53 180)
@@ -5525,6 +5576,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 248.92 120.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06969bd0-f52d-4554-b2ec-12cd14d68b37")
+		(property "Reference" "J5"
+			(at 248.285 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 248.666 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 248.92 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 248.92 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c16d70e5-db80-409d-80a3-d9bd76c4c4cd")
+		)
+		(pin "1"
+			(uuid "902a09e5-7cf7-4a65-8ac5-ffa90ecbf6d4")
+		)
+		(instances
+			(project "bioamplifier"
+				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 219.71 106.68 0)
 		(unit 1)
@@ -5608,7 +5726,7 @@
 			)
 		)
 		(property "Value" "50 Ω"
-			(at 258.064 48.768 90)
+			(at 260.35 48.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5933,7 +6051,7 @@
 			)
 		)
 		(property "Value" "50 Ω"
-			(at 258.064 58.928 90)
+			(at 260.35 58.928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6000,7 +6118,7 @@
 			)
 		)
 		(property "Value" "50 Ω"
-			(at 258.064 75.438 90)
+			(at 260.35 75.438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6332,7 +6450,7 @@
 			)
 		)
 		(property "Value" "50 Ω"
-			(at 258.064 77.978 90)
+			(at 260.35 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6536,7 +6654,7 @@
 			)
 		)
 		(property "Value" "50 Ω"
-			(at 258.064 80.518 90)
+			(at 260.35 80.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6731,7 +6849,7 @@
 			)
 		)
 		(property "Value" "50 Ω"
-			(at 258.064 72.898 90)
+			(at 260.35 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,7 +7051,7 @@
 			)
 		)
 		(property "Value" "50 Ω"
-			(at 258.064 83.058 90)
+			(at 260.35 83.058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7339,7 +7457,7 @@
 			)
 		)
 		(property "Value" "50 Ω"
-			(at 258.064 51.308 90)
+			(at 260.35 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7472,7 +7590,7 @@
 			)
 		)
 		(property "Value" "50 Ω"
-			(at 258.064 85.598 90)
+			(at 260.35 85.598 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7587,6 +7705,72 @@
 			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 237.49 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84ba4b10-aa4c-48a3-83e9-7f4137ade220")
+		(property "Reference" "#PWR05"
+			(at 237.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 237.49 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7f45ab0-10e6-4056-9652-a38be37c5eb9")
+		)
+		(instances
+			(project "bioamplifier"
+				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7814,7 +7998,7 @@
 			)
 		)
 		(property "Value" "50 Ω"
-			(at 258.064 61.468 90)
+			(at 260.35 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8069,73 +8253,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 181.61 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aedda894-b11f-4d9a-a16d-d07ef8955ca6")
-		(property "Reference" "#PWR05"
-			(at 181.61 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 184.404 120.4594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f6121ab-4cfc-4c34-bfee-feb2cb05aa55")
-		)
-		(instances
-			(project "bioamplifier"
-				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 193.04 116.84 180)
 		(unit 1)
@@ -8143,7 +8260,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b13cc09e-f5ce-4161-99c9-ebd1faba6bf8")
 		(property "Reference" "D1"
 			(at 193.3575 113.538 90)
@@ -8154,8 +8270,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BLUE LED"
-			(at 195.8975 113.538 90)
+		(property "Value" "LB QH9G-N1OO-35-1"
+			(at 194.818 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8562,7 +8678,7 @@
 			)
 		)
 		(property "Value" "50 Ω"
-			(at 258.064 56.388 90)
+			(at 260.35 56.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9313,7 +9429,7 @@
 			)
 		)
 		(property "Value" "50 Ω"
-			(at 258.064 53.848 90)
+			(at 260.35 53.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
