@@ -9,4 +9,5 @@
   (lib (name "tlv77333")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ul_TLV77333PDQNR/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "tps72301")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ul_TPS72301DBVR/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "mcp1754")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LIB_MCP1754ST-3302E_DB/footprints.pretty")(options "")(descr ""))
+  (lib (name "tlv702")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ul_TLV70310DBVR/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
