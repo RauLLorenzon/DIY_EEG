@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.2-2.fc42"
+      "Version": "9.0.5-1.fc42"
     },
-    "CreationDate": "2025-06-23T11:30:10+02:00"
+    "CreationDate": "2025-11-21T18:00:38+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,8 +14,8 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 70.1,
-      "Y": 40.1
+      "X": 71.8734,
+      "Y": 40.6134
     },
     "LayerNumber": 4,
     "BoardThickness": 1.5,
@@ -36,8 +36,8 @@
       "PadToPad": 0.1,
       "PadToTrack": 0.1,
       "TrackToTrack": 0.1,
-      "TrackToRegion": 0.25,
-      "RegionToRegion": 0.25
+      "TrackToRegion": 0.5,
+      "RegionToRegion": 0.5
     }
   ],
   "FilesAttributes": [
@@ -48,12 +48,12 @@
     },
     {
       "Path": "bioamplifier-In1_Cu.gbr",
-      "FileFunction": "Copper,L5,Inr",
+      "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
       "Path": "bioamplifier-In2_Cu.gbr",
-      "FileFunction": "Copper,L7,Inr",
+      "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {

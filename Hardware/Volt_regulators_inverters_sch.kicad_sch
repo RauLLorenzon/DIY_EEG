@@ -1329,16 +1329,6 @@
 		)
 		(uuid "5f24a320-ed96-4b46-a89c-14d2d33f0ae8")
 	)
-	(text "3.3V LDO REG#2 e #3\n\n\n"
-		(exclude_from_sim no)
-		(at 167.386 33.528 0)
-		(effects
-			(font
-				(size 4 4)
-			)
-		)
-		(uuid "7c95daa4-32cb-443e-94df-88461eba8f41")
-	)
 	(text "-2.5V LDO REG"
 		(exclude_from_sim no)
 		(at 45.974 103.886 0)
