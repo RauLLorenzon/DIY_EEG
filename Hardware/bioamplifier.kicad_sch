@@ -2490,118 +2490,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GNDD_2"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDD"
-				(at 0 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDD_2_0_1"
-				(rectangle
-					(start -1.27 -1.524)
-					(end 1.27 -2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDD_2_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -3190,6 +3078,12 @@
 		(uuid "1d660889-cef0-4e98-ab1a-ddd659b9bc0a")
 	)
 	(junction
+		(at 73.66 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25a9ab94-6706-471d-95b4-757ca4afc5bb")
+	)
+	(junction
 		(at 195.58 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3611,6 +3505,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 124.46) (xy 73.66 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac98c6f-7b87-440d-a2f0-cbc4c20e66ca")
+	)
+	(wire
+		(pts
 			(xy 182.88 66.04) (xy 180.34 66.04)
 		)
 		(stroke
@@ -3841,16 +3745,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 124.46) (xy 73.66 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "619e820a-78ff-4144-8887-078eff9cb584")
-	)
-	(wire
-		(pts
 			(xy 53.34 139.7) (xy 60.96 139.7)
 		)
 		(stroke
@@ -3908,6 +3802,16 @@
 			(type default)
 		)
 		(uuid "6cb86950-556d-49c9-b3df-5c8160a633d7")
+	)
+	(wire
+		(pts
+			(xy 73.66 139.7) (xy 78.74 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fe08840-3eb7-40c1-8526-4cc29e151859")
 	)
 	(wire
 		(pts
@@ -4391,7 +4295,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 139.7) (xy 78.74 139.7)
+			(xy 60.96 139.7) (xy 73.66 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8904,73 +8808,6 @@
 			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GNDD_2")
-		(lib_id "power:GNDD")
-		(at 73.66 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b749578d-f735-466c-8c4f-99e7180f2818")
-		(property "Reference" "#PWR02"
-			(at 73.66 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 73.66 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 73.66 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0fdaf553-706a-4ac9-a7d8-bc47691434ba")
-		)
-		(instances
-			(project ""
-				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)

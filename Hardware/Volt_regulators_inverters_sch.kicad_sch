@@ -5,6 +5,128 @@
 	(uuid "2df60333-6c07-4f6c-82f7-fd4ac5e8e4f1")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1420,6 +1542,12 @@
 		(uuid "9262cdda-8522-496f-89b7-4a874b64a413")
 	)
 	(junction
+		(at 91.44 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5b165a0-6b41-4717-92f5-312466596ca8")
+	)
+	(junction
 		(at 45.72 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1438,16 +1566,34 @@
 		(uuid "c696312b-b3d2-4683-b84b-136ef6c3f5fb")
 	)
 	(junction
+		(at 83.82 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf5b329b-4c03-4cf6-a76e-cb075b49f341")
+	)
+	(junction
 		(at 60.96 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d547d5e5-3780-4ddd-8f7d-b98865f55978")
 	)
 	(junction
+		(at 91.44 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed5e51d6-5e33-4722-9223-770861f18b47")
+	)
+	(junction
 		(at 49.53 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f298c293-59aa-4b8e-942a-8f3b3f7c9100")
+	)
+	(junction
+		(at 81.28 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f892d9f5-df79-43d5-986d-bb187a561cae")
 	)
 	(wire
 		(pts
@@ -1458,6 +1604,16 @@
 			(type default)
 		)
 		(uuid "05478ab6-9bfe-4e2e-8a8a-e52f0e148038")
+	)
+	(wire
+		(pts
+			(xy 71.12 73.66) (xy 71.12 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07ad7e52-511b-46ee-bde4-f0f35087ecab")
 	)
 	(wire
 		(pts
@@ -1511,6 +1667,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 48.26) (xy 90.17 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20213882-67f3-4b3b-9cc2-826bf899de54")
+	)
+	(wire
+		(pts
 			(xy 81.28 80.01) (xy 81.28 82.55)
 		)
 		(stroke
@@ -1531,7 +1697,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 38.1) (xy 90.17 38.1)
+			(xy 88.9 73.66) (xy 83.82 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc75e0c-f7de-4b02-9906-f86114fb40f7")
+	)
+	(wire
+		(pts
+			(xy 93.98 38.1) (xy 91.44 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1551,7 +1727,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 118.11) (xy 85.09 118.11)
+			(xy 85.09 118.11) (xy 91.44 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1601,6 +1777,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 73.66) (xy 71.12 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4809dd07-ca03-491c-9596-26fb2a193c5c")
+	)
+	(wire
+		(pts
 			(xy 39.37 172.72) (xy 39.37 168.91)
 		)
 		(stroke
@@ -1641,7 +1827,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 163.83) (xy 74.93 163.83)
+			(xy 74.93 163.83) (xy 81.28 163.83)
 		)
 		(stroke
 			(width 0)
@@ -1751,6 +1937,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 38.1) (xy 90.17 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860d3425-bb11-40df-8f1a-b239dd02f6bf")
+	)
+	(wire
+		(pts
 			(xy 60.96 82.55) (xy 68.58 82.55)
 		)
 		(stroke
@@ -1768,6 +1964,26 @@
 			(type default)
 		)
 		(uuid "8f252a30-6189-4bc9-b33f-e94959242f35")
+	)
+	(wire
+		(pts
+			(xy 81.28 163.83) (xy 83.82 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9221df96-f668-4c00-9f4b-7a07559d8aa3")
+	)
+	(wire
+		(pts
+			(xy 91.44 118.11) (xy 93.98 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9705792a-a18c-4145-a8c7-c03f583d4c5c")
 	)
 	(wire
 		(pts
@@ -1808,6 +2024,16 @@
 			(type default)
 		)
 		(uuid "b1fbf57e-ec44-42fd-9dd5-91d782721f01")
+	)
+	(wire
+		(pts
+			(xy 91.44 116.84) (xy 91.44 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b0fc2a-c111-49f6-8f96-20df4d882bf0")
 	)
 	(wire
 		(pts
@@ -1881,16 +2107,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 48.26) (xy 90.17 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1917f50-3580-415e-839f-05d0540261ab")
-	)
-	(wire
-		(pts
 			(xy 74.93 163.83) (xy 72.39 163.83)
 		)
 		(stroke
@@ -1898,6 +2114,16 @@
 			(type default)
 		)
 		(uuid "db6f326c-2f35-4b7d-b080-a38250c559a9")
+	)
+	(wire
+		(pts
+			(xy 78.74 81.28) (xy 78.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36f945c-66cc-4933-9d71-5570ce2be28f")
 	)
 	(wire
 		(pts
@@ -1951,6 +2177,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 162.56) (xy 81.28 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef088f27-e174-428c-91bf-d3f251c15f47")
+	)
+	(wire
+		(pts
 			(xy 27.94 172.72) (xy 39.37 172.72)
 		)
 		(stroke
@@ -1958,6 +2194,16 @@
 			(type default)
 		)
 		(uuid "f0ef460a-7e1e-4d4e-a6ab-27a1fa191882")
+	)
+	(wire
+		(pts
+			(xy 88.9 71.12) (xy 88.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f436f689-a61c-41ce-9e06-80daa2d7c5b2")
 	)
 	(global_label "3.3V_UNREG"
 		(shape input)
@@ -1983,7 +2229,7 @@
 	)
 	(global_label "DVDD"
 		(shape input)
-		(at 71.12 72.39 0)
+		(at 88.9 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1993,7 +2239,7 @@
 		)
 		(uuid "149c85fe-18ef-476e-ad6c-5ed73888b9c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.0038 72.39 0)
+			(at 96.7838 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,6 +2400,73 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 91.44 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10404ab9-02ea-4541-87f4-8f4ed2400bf1")
+		(property "Reference" "J8"
+			(at 92.71 111.1249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "-2.5v_reg_test"
+			(at 92.71 113.6649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "577bd605-06a2-4f41-bfa5-606aa8089634")
+		)
+		(instances
+			(project "bioamplifier"
+				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780/db58efb1-7103-4a17-b794-0e1a9c461960"
+					(reference "J8")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3019,6 +3332,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 83.82 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "946746e1-9769-4d54-ac4c-87a4d5499b53")
+		(property "Reference" "J6"
+			(at 85.09 67.9449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "dvdd_test"
+			(at 85.09 70.4849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaf02b32-0e79-404a-bf23-7a1676e38526")
+		)
+		(instances
+			(project "bioamplifier"
+				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780/db58efb1-7103-4a17-b794-0e1a9c461960"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 74.93 168.91 0)
 		(unit 1)
@@ -3148,6 +3528,73 @@
 			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780/db58efb1-7103-4a17-b794-0e1a9c461960"
 					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 91.44 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf2d805a-0e30-4659-be75-6772535ed5e2")
+		(property "Reference" "J7"
+			(at 92.71 32.3849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "-2.5v_test"
+			(at 92.71 34.9249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 91.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 91.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8790126-6aa8-4b24-8151-77e1450354d4")
+		)
+		(instances
+			(project "bioamplifier"
+				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780/db58efb1-7103-4a17-b794-0e1a9c461960"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3491,6 +3938,73 @@
 			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780/db58efb1-7103-4a17-b794-0e1a9c461960"
 					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 81.28 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3fd71dc-3e58-4d91-a63b-33432963868c")
+		(property "Reference" "J9"
+			(at 82.55 156.8449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.5v_reg_test"
+			(at 82.55 159.3849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 81.28 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 81.28 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70fe4257-dad2-460f-9db7-f1c8cbe28a97")
+		)
+		(instances
+			(project "bioamplifier"
+				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780/db58efb1-7103-4a17-b794-0e1a9c461960"
+					(reference "J9")
 					(unit 1)
 				)
 			)
