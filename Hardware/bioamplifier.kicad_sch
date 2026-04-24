@@ -3445,6 +3445,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 29.21) (xy 205.74 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e9426ad-bed5-42c7-a5f9-86e01fc4a43a")
+	)
+	(wire
+		(pts
 			(xy 182.88 63.5) (xy 185.42 63.5)
 		)
 		(stroke
@@ -4185,6 +4195,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 24.13) (xy 201.93 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a49f6525-96d7-4773-84b1-9dde31546b95")
+	)
+	(wire
+		(pts
 			(xy 232.41 29.21) (xy 236.22 29.21)
 		)
 		(stroke
@@ -4445,6 +4465,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 26.67) (xy 201.93 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3062f04-d29b-4228-afd9-61f8ef430483")
+	)
+	(wire
+		(pts
 			(xy 68.58 111.76) (xy 91.44 111.76)
 		)
 		(stroke
@@ -4675,6 +4705,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 21.59) (xy 201.93 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ee7134-071c-44ce-a987-ae5d70190d36")
+	)
+	(wire
+		(pts
 			(xy 180.34 63.5) (xy 182.88 63.5)
 		)
 		(stroke
@@ -4762,6 +4802,16 @@
 			(justify right bottom)
 		)
 		(uuid "24c28c7d-a875-42ae-a67f-abac596e4d4c")
+	)
+	(label "GPIO3"
+		(at 209.55 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2db20ce5-0142-4484-a73b-dec8edf30ade")
 	)
 	(label "RESET"
 		(at 234.95 55.88 180)
@@ -4903,6 +4953,16 @@
 		)
 		(uuid "c0d2aa4c-3f46-4a57-b44d-9537ccab4b86")
 	)
+	(label "GPIO1"
+		(at 209.55 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf6d0179-c795-403d-a9e0-9cdf38daa27e")
+	)
 	(label "GPIO2"
 		(at 182.88 111.76 0)
 		(effects
@@ -4922,6 +4982,16 @@
 			(justify right bottom)
 		)
 		(uuid "e27d6904-97ff-4660-a466-959c06d71376")
+	)
+	(label "GPIO2"
+		(at 209.55 24.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8eb9819-8cd0-4c4b-a2b0-d6a62e485a5b")
 	)
 	(label "DAISY-IN"
 		(at 182.88 119.38 0)
@@ -4952,6 +5022,16 @@
 			(justify left bottom)
 		)
 		(uuid "fd832b81-5a11-4126-bfbc-64e4db094765")
+	)
+	(label "GPIO4"
+		(at 205.74 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdcf4689-e2f7-46b9-96d2-4ddb7cace2d4")
 	)
 	(label "GPIO4"
 		(at 182.88 106.68 0)
@@ -5722,7 +5802,7 @@
 			(uuid "7379bca0-b5c3-4c90-b6d1-7d05e073c569")
 		)
 		(instances
-			(project ""
+			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
 					(reference "J1")
 					(unit 1)
@@ -7185,7 +7265,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
 					(reference "FID1")
 					(unit 1)
@@ -7249,7 +7329,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
 					(reference "FID4")
 					(unit 1)
@@ -8872,7 +8952,7 @@
 			(uuid "3a1eea0f-f5ab-4f5e-a517-861c2144b417")
 		)
 		(instances
-			(project ""
+			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
 					(reference "J4")
 					(unit 1)
@@ -9144,7 +9224,7 @@
 			(uuid "9737030b-bead-415e-b282-3ab348d74b7b")
 		)
 		(instances
-			(project ""
+			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
 					(reference "#PWR03")
 					(unit 1)
@@ -9208,7 +9288,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
 					(reference "H1")
 					(unit 1)
@@ -9272,7 +9352,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
 					(reference "FID3")
 					(unit 1)
@@ -9890,7 +9970,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
 					(reference "FID2")
 					(unit 1)
@@ -10157,7 +10237,7 @@
 			(uuid "a7c27d1c-c4f9-4eb6-928e-ba50edb6ae7b")
 		)
 		(instances
-			(project ""
+			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
 					(reference "#PWR013")
 					(unit 1)
@@ -10268,6 +10348,106 @@
 			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 19.05)
+		(size 16.51 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8aba2089-00d5-4b1b-8a8d-03d57bbc24ba")
+		(property "Sheetname" "MCU"
+			(at 185.42 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 185.42 30.4296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 185.42 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GPIO0" input
+			(at 191.77 30.48 270)
+			(uuid "06387876-68d9-4894-a75d-f6d168a60297")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO1" input
+			(at 201.93 26.67 0)
+			(uuid "c3dd4b2e-3c6c-4ca9-9b5a-b2d2e44db546")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO2" input
+			(at 201.93 24.13 0)
+			(uuid "ee02f368-4c4a-4eb1-a8ef-9ed989fcdfdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO3" input
+			(at 201.93 21.59 0)
+			(uuid "952670f6-c6f7-4050-b995-9100a55d5548")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO4" input
+			(at 201.93 29.21 0)
+			(uuid "dc8ca32f-7d14-4310-a069-3e6f5ea2f0d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bioamplifier"
+				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780"
+					(page "4")
 				)
 			)
 		)

@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.8-1.fc43*%
+%TF.CreationDate,2026-04-14T14:49:35+02:00*%
+%TF.ProjectId,bioamplifier,62696f61-6d70-46c6-9966-6965722e6b69,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.8-1.fc43) date 2026-04-14 14:49:35*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.100000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X50601596Y-67442903D02*
+X122375000Y-67442903D01*
+X122375000Y-112556276D01*
+X50601596Y-112556276D01*
+X50601596Y-67442903D01*
+M02*

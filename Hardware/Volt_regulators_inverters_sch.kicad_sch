@@ -1210,6 +1210,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "tlv703:TLV70310DBVR"
 			(pin_names
 				(offset 0.254)
@@ -1512,6 +1637,12 @@
 		(uuid "4cebc93d-8861-4686-969f-af9faac195a4")
 	)
 	(junction
+		(at 41.91 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51d0e5e0-d641-43f7-acb9-4a11442d1eda")
+	)
+	(junction
 		(at 60.96 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1607,7 +1738,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 73.66) (xy 71.12 72.39)
+			(xy 74.93 73.66) (xy 74.93 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1697,16 +1828,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 73.66) (xy 83.82 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dc75e0c-f7de-4b02-9906-f86114fb40f7")
-	)
-	(wire
-		(pts
 			(xy 93.98 38.1) (xy 91.44 38.1)
 		)
 		(stroke
@@ -1737,7 +1858,17 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 72.39) (xy 45.72 72.39)
+			(xy 83.82 73.66) (xy 74.93 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366c5047-9587-43ed-9847-4c4801b53c41")
+	)
+	(wire
+		(pts
+			(xy 39.37 72.39) (xy 41.91 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1757,16 +1888,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 125.73) (xy 50.8 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40f5ecdc-b4fd-4a7a-84d3-0cbe6308e6c4")
-	)
-	(wire
-		(pts
 			(xy 90.17 40.64) (xy 90.17 38.1)
 		)
 		(stroke
@@ -1774,16 +1895,6 @@
 			(type default)
 		)
 		(uuid "46299ccc-3962-4405-b10e-6c430005be76")
-	)
-	(wire
-		(pts
-			(xy 83.82 73.66) (xy 71.12 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4809dd07-ca03-491c-9596-26fb2a193c5c")
 	)
 	(wire
 		(pts
@@ -1997,7 +2108,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 125.73) (xy 50.8 125.73)
+			(xy 49.53 120.65) (xy 50.8 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2117,16 +2228,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 81.28) (xy 78.74 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e36f945c-66cc-4933-9d71-5570ce2be28f")
-	)
-	(wire
-		(pts
 			(xy 71.12 118.11) (xy 85.09 118.11)
 		)
 		(stroke
@@ -2167,6 +2268,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 73.66) (xy 88.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4e481d-68c4-43aa-8cf4-171a8d0e403e")
+	)
+	(wire
+		(pts
 			(xy 27.94 163.83) (xy 27.94 172.72)
 		)
 		(stroke
@@ -2197,13 +2308,23 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 71.12) (xy 88.9 73.66)
+			(xy 74.93 72.39) (xy 71.12 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f436f689-a61c-41ce-9e06-80daa2d7c5b2")
+		(uuid "f805b9fe-54d7-42ff-af7b-6af52a7c966c")
+	)
+	(wire
+		(pts
+			(xy 41.91 72.39) (xy 45.72 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd1543d5-903a-4fc4-8e3a-6b12995ed6dc")
 	)
 	(global_label "3.3V_UNREG"
 		(shape input)
@@ -2229,7 +2350,7 @@
 	)
 	(global_label "DVDD"
 		(shape input)
-		(at 88.9 71.12 0)
+		(at 88.9 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2239,7 +2360,7 @@
 		)
 		(uuid "149c85fe-18ef-476e-ad6c-5ed73888b9c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.7838 71.12 0)
+			(at 96.7838 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2482,7 @@
 	)
 	(global_label "DVDD"
 		(shape input)
-		(at 49.53 125.73 180)
+		(at 49.53 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2371,7 +2492,7 @@
 		)
 		(uuid "b7b47c3a-e163-4940-b961-627d9c7899b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.6462 125.73 0)
+			(at 41.6462 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2893,7 +3014,7 @@
 			(uuid "904bc928-656e-47bf-a0d8-cf6169cdf759")
 		)
 		(instances
-			(project ""
+			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780/db58efb1-7103-4a17-b794-0e1a9c461960"
 					(reference "U7")
 					(unit 1)
@@ -3254,9 +3375,75 @@
 			(uuid "413033f5-0ce1-4f37-a8e2-f8cd6b2c42a7")
 		)
 		(instances
-			(project ""
+			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780/db58efb1-7103-4a17-b794-0e1a9c461960"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 41.91 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74517b97-da73-4f41-9f3d-833395adb88d")
+		(property "Reference" "#PWR022"
+			(at 41.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 41.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "749634cd-a85f-4095-82f3-3b23034a79f2")
+		)
+		(instances
+			(project "bioamplifier"
+				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780/db58efb1-7103-4a17-b794-0e1a9c461960"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3659,7 +3846,7 @@
 			(uuid "101fc246-c937-4534-b424-9ce7633f0995")
 		)
 		(instances
-			(project ""
+			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780/db58efb1-7103-4a17-b794-0e1a9c461960"
 					(reference "#PWR034")
 					(unit 1)
@@ -4138,7 +4325,7 @@
 			(uuid "51d2030f-08e9-4b92-972c-fd30287c0687")
 		)
 		(instances
-			(project ""
+			(project "bioamplifier"
 				(path "/59c54cdb-19a2-4654-a4c9-f1907d038780/db58efb1-7103-4a17-b794-0e1a9c461960"
 					(reference "#PWR057")
 					(unit 1)
