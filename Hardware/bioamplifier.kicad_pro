@@ -707,7 +707,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerber/drills/",
+      "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
